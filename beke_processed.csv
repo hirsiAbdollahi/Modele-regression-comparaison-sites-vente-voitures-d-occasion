@@ -1,0 +1,360 @@
+nom,ref,marque,modele,categorie,co2,nb_km,carburant,boite_vitesse,couleur,nb_portes,nb_places,mise_circulation,conso_mixte,p_fiscale,p_din,critair,prix
+Citroën berlingo,12003754203453,Citroën,Berlingo,Monospace,B,5082,Essence,Manuelle,Gris acier,5,5,2019,5.4,6,110,1,21366
+Citroën berlingo,12003754203473,Citroën,Berlingo,Monospace,B,8520,Essence,Manuelle,Gris acier,5,5,2019,5.4,6,110,1,21162
+Citroën berlingo,12004278203822,Citroën,Berlingo,Monospace,B,10520,Essence,Manuelle,Gris platinium,5,5,2019,5.4,6,110,1,19836
+Citroën c1,12001202195896,Citroën,C1,Citadine,A,7095,Essence,Manuelle,Bleu calvi,5,4,2019,3.7,3,72,1,11676
+Citroën c1,12002352195900,Citroën,C1,Citadine,A,7647,Essence,Manuelle,Noir caldéra,5,4,2019,3.7,4,72,1,11676
+Citroën c1,12001202195901,Citroën,C1,Citadine,A,9674,Essence,Manuelle,Bleu calvi,5,4,2019,3.7,3,72,1,11472
+Citroën c1,12001202195912,Citroën,C1,Citadine,A,9506,Essence,Manuelle,Bleu calvi,5,4,2019,3.7,3,72,1,11472
+Citroën c1,12001202195913,Citroën,C1,Citadine,A,9474,Essence,Manuelle,Bleu calvi,5,4,2019,3.7,3,72,1,11472
+Citroën c3,11910023190807,Citroën,C3,Citadine,B,19578,Essence,Auto,Orange power,5,5,2019,0.0,6,110,1,17082
+Citroën c3,11910023190811,Citroën,C3,Citadine,B,14399,Essence,Auto,Orange power,5,5,2019,0.0,6,110,1,17592
+Citroën c3,12000351194105,Citroën,C3,Citadine,B,13751,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,14736
+Citroën c3,11910171195521,Citroën,C3,Citadine,B,16344,Essence,Manuelle,Cobalt blue,5,5,2018,4.7,4,82,1,13206
+Citroën c3,11910171195524,Citroën,C3,Citadine,B,10470,Essence,Manuelle,Noir perla nera,5,5,2018,4.7,4,82,1,13818
+Citroën c3,12001340196116,Citroën,C3,Citadine,B,9366,Essence,Manuelle,Gris acier,5,5,2019,4.8,4,68,1,14226
+Citroën c3,12001221196540,Citroën,C3,Citadine,B,8296,Essence,Manuelle,Rouge rubi,5,5,2019,0.0,4,82,1,14532
+Citroën c3,12001221196545,Citroën,C3,Citadine,B,8301,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,14532
+Citroën c3,12001221196546,Citroën,C3,Citadine,B,8803,Essence,Manuelle,Rouge rubi,5,5,2019,0.0,4,82,1,14532
+Citroën c3,12001221196547,Citroën,C3,Citadine,B,9389,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196549,Citroën,C3,Citadine,B,9367,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196550,Citroën,C3,Citadine,B,9389,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196552,Citroën,C3,Citadine,B,9435,Essence,Manuelle,Rouge rubi,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196553,Citroën,C3,Citadine,B,9473,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196554,Citroën,C3,Citadine,B,9571,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196555,Citroën,C3,Citadine,B,9789,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196556,Citroën,C3,Citadine,B,9884,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196558,Citroën,C3,Citadine,B,9959,Essence,Manuelle,Rouge rubi,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196559,Citroën,C3,Citadine,B,10079,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14226
+Citroën c3,12001221196560,Citroën,C3,Citadine,B,10251,Essence,Manuelle,Rouge rubi,5,5,2019,0.0,4,82,1,14124
+Citroën c3,12001221196562,Citroën,C3,Citadine,B,10348,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,14124
+Citroën c3,12001221196563,Citroën,C3,Citadine,B,10363,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14124
+Citroën c3,12001221196564,Citroën,C3,Citadine,B,10397,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14124
+Citroën c3,12001221196565,Citroën,C3,Citadine,B,10426,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14124
+Citroën c3,12001221196566,Citroën,C3,Citadine,B,10726,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14022
+Citroën c3,12001221196567,Citroën,C3,Citadine,B,10874,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14022
+Citroën c3,12001221196568,Citroën,C3,Citadine,B,10865,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,14022
+Citroën c3,12001221196569,Citroën,C3,Citadine,B,10938,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,14022
+Citroën c3,12001221196570,Citroën,C3,Citadine,B,12091,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,13716
+Citroën c3,12001221196571,Citroën,C3,Citadine,B,11961,Essence,Manuelle,Rouge rubi,5,5,2019,0.0,4,82,1,13716
+Citroën c3,12001221196572,Citroën,C3,Citadine,B,12167,Essence,Manuelle,Gris artense,5,5,2019,0.0,4,82,1,13716
+Citroën c3,11910083197496,Citroën,C3,Citadine,B,18543,Essence,Manuelle,Almond green,5,5,2018,4.7,4,82,1,13206
+Citroën c3,11908109197500,Citroën,C3,Citadine,B,22469,Essence,Manuelle,Cobalt blue,5,5,2018,4.7,4,82,1,13206
+Citroën c3,11910171197504,Citroën,C3,Citadine,B,18383,Essence,Manuelle,Noir perla nera,5,5,2018,4.7,4,82,1,13206
+Citroën c3,11910173197506,Citroën,C3,Citadine,B,33920,Essence,Manuelle,Almond green,5,5,2018,4.7,4,82,1,12696
+Citroën c3,11910173197507,Citroën,C3,Citadine,B,15995,Essence,Manuelle,Almond green,5,5,2018,4.7,4,82,1,13206
+Citroën c3,12002053197509,Citroën,C3,Citadine,B,7094,Essence,Manuelle,Noir perla nera,5,5,2018,4.7,4,82,1,14226
+Citroën c3,12000064197510,Citroën,C3,Citadine,B,12436,Essence,Manuelle,Blanc banquise,5,5,2018,4.7,4,82,1,13716
+Citroën c3,12002479198917,Citroën,C3,Citadine,B,11502,Essence,Manuelle,Gris acier / toit noir,5,5,2019,0.0,4,82,1,14940
+Citroën c3,12002508199236,Citroën,C3,Berline,A,6810,Essence,Manuelle,Rouge rubi,5,5,2019,0.0,4,82,1,15756
+Citroën c3,12002704199583,Citroën,C3,Citadine,A,5017,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,15756
+Citroën c3,12002710199588,Citroën,C3,Citadine,B,6982,Essence,Manuelle,Gris platinium,5,5,2019,0.0,4,82,1,16266
+Citroën c3,12002891199816,Citroën,C3,Citadine,A,25197,Diesel,Manuelle,Rouge rubi,5,5,2019,3.4,5,102,2,15756
+Citroën c3,12003670202533,Citroën,C3,Citadine,A,7457,Diesel,Manuelle,Gris acier,5,5,2019,3.4,5,102,2,16776
+Citroën c3,12003676202537,Citroën,C3,Citadine,A,23517,Diesel,Manuelle,Gris platinium,5,5,2019,3.4,5,102,2,16266
+Citroën c3,12003670202950,Citroën,C3,Citadine,A,5985,Diesel,Manuelle,Gris acier,5,5,2019,3.4,5,102,2,16980
+Citroën c3,10590519091059051909,Citroën,C3,Berline,B,10,Essence,Manuelle,Platine,5,5,2020,0.0,4,82,1,15728
+Citroën c3,12591662341259166234,Citroën,C3,Berline,B,10,Essence,Manuelle,Blanc,5,5,2020,0.0,4,82,1,15728
+Citroën c3,13911547521391154752,Citroën,C3,Berline,B,10,Essence,Manuelle,Blanc,5,5,2020,0.0,4,82,1,15728
+Citroën c3,14959561301495956130,Citroën,C3,Berline,B,10,Essence,Manuelle,Platine,5,5,2020,0.0,4,82,1,15728
+Citroën c3 aircross,11910254191099,Citroën,C3 aircross,Suv 4x4,B,12908,Essence,Manuelle,Breathing blue / toit ink black,5,5,2019,4.8,5,110,1,17796
+Citroën c3 aircross,11910254191101,Citroën,C3 aircross,Suv 4x4,B,14393,Essence,Manuelle,Breathing blue / toit ink black,5,5,2019,4.8,5,110,1,17694
+Citroën c3 aircross,11910254191102,Citroën,C3 aircross,Suv 4x4,B,14506,Essence,Manuelle,Breathing blue / toit ink black,5,5,2019,4.8,5,110,1,17694
+Citroën c3 aircross,12000557196802,Citroën,C3 aircross,Suv 4x4,B,15064,Essence,Manuelle,Spicy orange,5,5,2019,4.8,5,110,1,16266
+Citroën c3 aircross,12000557196803,Citroën,C3 aircross,Suv 4x4,B,15171,Essence,Manuelle,Breathing blue,5,5,2019,4.8,5,110,1,16266
+Citroën c3 aircross,12001712196805,Citroën,C3 aircross,Suv 4x4,B,13134,Essence,Manuelle,Cosmic silver,5,5,2019,4.8,5,110,1,15858
+Citroën c3 aircross,12002365198518,Citroën,C3 aircross,Suv 4x4,B,5,Essence,Manuelle,Spicy orange,5,5,2019,4.8,5,110,1,20346
+Citroën c3 aircross,12002609199286,Citroën,C3 aircross,Suv 4x4,B,8749,Diesel,Manuelle,Ink black,5,5,2019,4.1,5,102,2,19836
+Citroën c3 aircross,12002729199622,Citroën,C3 aircross,Suv 4x4,B,9273,Essence,Manuelle,Cosmic silver,5,5,2019,4.8,5,110,1,19326
+Citroën c3 aircross,12002765199724,Citroën,C3 aircross,Suv 4x4,B,10253,Essence,Manuelle,Sable,5,5,2019,4.8,5,110,1,19122
+Citroën c3 aircross,12003645202500,Citroën,C3 aircross,Suv 4x4,B,8102,Essence,Auto,Breathing blue,5,5,2019,5.7,6,110,1,20346
+Citroën c3 aircross,12003666202508,Citroën,C3 aircross,Suv 4x4,B,13026,Essence,Auto,Misty grey,5,5,2019,5.7,6,110,1,19836
+Citroën c3 aircross,12003662202509,Citroën,C3 aircross,Suv 4x4,B,11026,Essence,Auto,Cosmic silver,5,5,2019,5.7,6,110,1,20346
+Citroën c3 aircross,12003682202530,Citroën,C3 aircross,Suv 4x4,B,4238,Essence,Manuelle,Ink black,5,5,2019,4.8,5,110,1,19326
+Citroën c3 aircross,12003682202538,Citroën,C3 aircross,Suv 4x4,B,5016,Essence,Manuelle,Misty grey,5,5,2019,4.8,5,110,1,19326
+Citroën c3 aircross,12003682202556,Citroën,C3 aircross,Suv 4x4,B,5122,Essence,Manuelle,Ink black,5,5,2019,4.8,5,110,1,19326
+Citroën c3 aircross,12003682202557,Citroën,C3 aircross,Suv 4x4,B,5230,Essence,Manuelle,Ink black,5,5,2019,4.8,5,110,1,19326
+Citroën c3 aircross,12003662202954,Citroën,C3 aircross,Suv 4x4,B,15563,Essence,Auto,Sable,5,5,2019,5.7,6,110,1,20142
+Citroën c3 aircross,12003939203142,Citroën,C3 aircross,Suv 4x4,B,5281,Essence,Auto,Gris platinium,5,5,2019,5.7,6,110,1,19326
+Citroën c3 aircross,12003939203143,Citroën,C3 aircross,Suv 4x4,B,5650,Essence,Auto,Sable,5,5,2019,5.7,6,110,1,19326
+Citroën c3 aircross,12003939203144,Citroën,C3 aircross,Suv 4x4,B,7337,Essence,Auto,Sable,5,5,2019,5.7,6,110,1,19326
+Citroën c3 aircross,12003939203170,Citroën,C3 aircross,Suv 4x4,B,7807,Essence,Auto,Misty grey,5,5,2019,5.7,6,110,1,19326
+Citroën c3 aircross,12003645203175,Citroën,C3 aircross,Suv 4x4,B,2933,Essence,Auto,Ink black,5,5,2019,5.7,6,110,1,20856
+Citroën c3 aircross,12003645203423,Citroën,C3 aircross,Suv 4x4,B,3998,Essence,Auto,Ink black,5,5,2019,5.7,6,110,1,20652
+Citroën c3 aircross,12003843203430,Citroën,C3 aircross,Suv 4x4,B,6454,Diesel,Manuelle,Ink black,5,5,2019,4.1,5,102,2,20142
+Citroën c3 aircross,12003843203479,Citroën,C3 aircross,Suv 4x4,B,9373,Diesel,Manuelle,Cosmic silver,5,5,2019,4.1,5,102,2,19530
+Citroën c3 aircross,12004286203826,Citroën,C3 aircross,Suv 4x4,B,6389,Diesel,Manuelle,Ink black,5,5,2019,4.1,5,102,2,19836
+Citroën c3 aircross,12004294203827,Citroën,C3 aircross,Suv 4x4,B,6489,Diesel,Manuelle,Sable,5,5,2019,4.1,5,102,2,19836
+Citroën c4 cactus,12003634202504,Citroën,C4 cactus,Berline,B,25984,Essence,Auto,Gris artense,5,5,2019,5.1,6,110,1,18306
+Citroën c4 cactus,12003992203188,Citroën,C4 cactus,Berline,B,10212,Essence,Auto,Gris acier,5,5,2019,4.8,6,131,1,19836
+Citroën c4 cactus,12003644203454,Citroën,C4 cactus,Berline,B,10564,Essence,Manuelle,Emeraude blue,5,5,2019,4.6,5,110,1,17286
+Citroën c4 cactus business,12002313198309,Citroën,C4 cactus business,Berline,B,4807,Essence,Auto,Noir obsidien,5,5,2019,4.8,6,131,1,20346
+Citroën c4 cactus business,12002720199605,Citroën,C4 cactus business,Berline,B,4025,Essence,Manuelle,Gris platinium,5,5,2018,4.6,5,110,1,17286
+Citroën c4 cactus business,12003638202502,Citroën,C4 cactus business,Berline,B,14341,Essence,Manuelle,Gris platinium,5,5,2018,4.6,5,110,1,16266
+Citroën c4 cactus business,12003638202503,Citroën,C4 cactus business,Berline,B,13474,Essence,Manuelle,Gris platinium,5,5,2018,4.6,5,110,1,16266
+Citroën c4 cactus business,12003699202562,Citroën,C4 cactus business,Berline,B,15899,Essence,Manuelle,Emeraude blue,5,5,2019,4.6,5,110,1,17286
+Citroën c5 aircross,12000519194700,Citroën,C5 aircross,Suv 4x4,B,5630,Essence,Manuelle,Noir perla nera,5,5,2019,5.3,7,131,1,27996
+Citroën c5 aircross,19422401941942240194,Citroën,C5 aircross,Suv 4x4,C,4100,Essence,Auto,Blanc,5,5,2019,0.0,10,180,1,34728
+Citroën grand c4 spacetourer,12002137197694,Citroën,Grand c4 spacetourer,Monospace,B,8647,Essence,Auto,Gris platinium,5,7,2019,5.2,7,130,1,26058
+Citroën grand c4 spacetourer,12001629197550,Citroën,Grand c4 spacetourer,Monospace,B,3881,Essence,Manuelle,Gris platinium,5,7,2019,0.0,7,130,1,25956
+Citroën grand c4 spacetourer,12002137197697,Citroën,Grand c4 spacetourer,Monospace,B,4845,Essence,Auto,Gris acier,5,7,2019,5.2,7,130,1,26466
+Citroën grand c4 spacetourer,12002137197698,Citroën,Grand c4 spacetourer,Monospace,B,5002,Essence,Auto,Gris acier,5,7,2019,5.2,7,130,1,26466
+Peugeot 108,12002183197906,Peugeot,108,Citadine,A,44031,Essence,Manuelle,Gris carlinite,5,4,2017,4.1,3,68,1,9942
+Peugeot 108,12002184197908,Peugeot,108,Citadine,A,41750,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9942
+Peugeot 108,12002183197909,Peugeot,108,Citadine,A,52971,Essence,Manuelle,Gris carlinite,5,4,2017,4.1,3,68,1,9738
+Peugeot 108,12002184197911,Peugeot,108,Citadine,A,52422,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9738
+Peugeot 108,12002183197912,Peugeot,108,Citadine,A,44591,Essence,Manuelle,Gris gallium,5,4,2017,4.1,3,68,1,9942
+Peugeot 108,12002184197913,Peugeot,108,Citadine,A,30736,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10452
+Peugeot 108,12002184197914,Peugeot,108,Citadine,A,17462,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,11166
+Peugeot 108,12002184197915,Peugeot,108,Citadine,A,30308,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10452
+Peugeot 108,12002184197916,Peugeot,108,Citadine,A,43548,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9942
+Peugeot 108,12002184197917,Peugeot,108,Citadine,A,35277,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10146
+Peugeot 108,12002183197918,Peugeot,108,Citadine,A,59630,Essence,Manuelle,Gris carlinite,5,4,2017,4.1,3,68,1,9636
+Peugeot 108,12002184197920,Peugeot,108,Citadine,A,31138,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10350
+Peugeot 108,12002184197921,Peugeot,108,Citadine,A,74069,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9126
+Peugeot 108,12002184197922,Peugeot,108,Citadine,A,18213,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,11166
+Peugeot 108,12002184197923,Peugeot,108,Citadine,A,46338,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9942
+Peugeot 108,12002183199229,Peugeot,108,Citadine,A,27431,Essence,Manuelle,Noir caldera,5,4,2017,4.1,3,68,1,10452
+Peugeot 108,12002183201475,Peugeot,108,Citadine,A,44631,Essence,Manuelle,Gris gallium,5,4,2017,4.1,3,68,1,9942
+Peugeot 108,12002183201476,Peugeot,108,Citadine,A,49778,Essence,Manuelle,Red purple,5,4,2017,4.1,3,68,1,9738
+Peugeot 108,12002183201477,Peugeot,108,Citadine,A,43023,Essence,Manuelle,Gris gallium,5,4,2017,4.1,3,68,1,9942
+Peugeot 108,12002184201478,Peugeot,108,Citadine,A,33858,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10146
+Peugeot 108,12002184201479,Peugeot,108,Citadine,A,51766,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9738
+Peugeot 108,12002184201480,Peugeot,108,Citadine,A,46274,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9942
+Peugeot 108,12002184201482,Peugeot,108,Citadine,A,28706,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10656
+Peugeot 108,12002184201483,Peugeot,108,Citadine,A,21677,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10758
+Peugeot 108,12002184203006,Peugeot,108,Citadine,A,91708,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9126
+Peugeot 108,12002183203007,Peugeot,108,Citadine,A,45365,Essence,Manuelle,Gris gallium,5,4,2017,4.1,3,68,1,10146
+Peugeot 108,12002184203008,Peugeot,108,Citadine,A,97758,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,9126
+Peugeot 108,12002184203009,Peugeot,108,Citadine,A,28751,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10656
+Peugeot 108,12002184203010,Peugeot,108,Citadine,A,35498,Essence,Manuelle,Blanc lipizan,5,4,2017,4.1,3,68,1,10146
+Peugeot 2008,12003289195498,Peugeot,2008,Suv 4x4,B,45581,Essence,Auto,Blanc banquise,5,5,2016,4.4,4,82,1,13716
+Peugeot 2008,12001240195978,Peugeot,2008,Suv 4x4,B,119303,Essence,Manuelle,Noir perla nera,5,5,2015,4.9,4,82,1,10446
+Peugeot 2008,12001476197655,Peugeot,2008,Suv 4x4,B,19333,Essence,Auto,Noir perla nera,5,5,2019,5.5,6,110,1,18918
+Peugeot 2008,12002122197660,Peugeot,2008,Suv 4x4,B,16408,Essence,Auto,Gris artense,5,5,2019,5.5,6,110,1,19326
+Peugeot 2008,12002309198306,Peugeot,2008,Suv 4x4,B,41430,Essence,Auto,Noir perla nera,5,5,2017,4.8,6,110,1,16878
+Peugeot 2008,11911549198308,Peugeot,2008,Suv 4x4,B,21595,Essence,Auto,Rouge ultimate,5,5,2017,4.8,6,110,1,17796
+Peugeot 2008,11911734198310,Peugeot,2008,Suv 4x4,B,50110,Essence,Manuelle,Blanc perle nacré,5,5,2017,4.4,5,110,1,15552
+Peugeot 2008,12002608199285,Peugeot,2008,Suv 4x4,B,41680,Essence,Manuelle,Gris hurricane,5,5,2017,4.9,4,82,1,13206
+Peugeot 2008,12002615199291,Peugeot,2008,Suv 4x4,B,26680,Essence,Manuelle,Gris platinium,5,5,2017,4.9,4,82,1,15858
+Peugeot 2008,12002631199321,Peugeot,2008,Suv 4x4,B,45000,Essence,Manuelle,Gris hurricane,5,5,2017,4.4,5,110,1,16776
+Peugeot 2008,12002312199323,Peugeot,2008,Suv 4x4,B,37710,Essence,Auto,Noir perla nera,5,5,2017,4.8,6,110,1,16776
+Peugeot 2008,12002698199580,Peugeot,2008,Suv 4x4,B,59131,Essence,Manuelle,Gris platinium,5,5,2017,4.9,4,82,1,13206
+Peugeot 2008,12002749199657,Peugeot,2008,Suv 4x4,B,6885,Essence,Auto,Gris hurricane,5,5,2019,0.0,6,130,1,20346
+Peugeot 2008,12002749199658,Peugeot,2008,Suv 4x4,B,5489,Essence,Auto,Gris hurricane,5,5,2019,0.0,6,130,1,20346
+Peugeot 2008,12002909199905,Peugeot,2008,Suv 4x4,B,44980,Essence,Manuelle,Gris artense,5,5,2017,4.9,4,82,1,13716
+Peugeot 2008,12002911199907,Peugeot,2008,Suv 4x4,B,25980,Essence,Manuelle,Spirit grey,5,5,2017,4.9,4,82,1,14226
+Peugeot 2008,12002914199908,Peugeot,2008,Suv 4x4,B,50190,Essence,Manuelle,Gris hurricane,5,5,2017,4.9,4,82,1,13716
+Peugeot 2008,12002918199910,Peugeot,2008,Suv 4x4,B,36720,Essence,Manuelle,Spirit grey,5,5,2017,4.9,4,82,1,15246
+Peugeot 2008,12002921199913,Peugeot,2008,Suv 4x4,B,40744,Essence,Auto,Blanc banquise,5,5,2017,4.8,6,110,1,16776
+Peugeot 2008,12003006200289,Peugeot,2008,Suv 4x4,A,52355,Diesel,Manuelle,Gris artense,5,5,2016,3.7,5,100,2,14526
+Peugeot 2008,12003289201504,Peugeot,2008,Suv 4x4,B,41130,Essence,Auto,Blanc banquise,5,5,2017,4.4,4,82,1,14226
+Peugeot 2008,12002608201505,Peugeot,2008,Suv 4x4,B,30290,Essence,Manuelle,Gris hurricane,5,5,2017,4.9,4,82,1,13512
+Peugeot 2008,12003290201506,Peugeot,2008,Suv 4x4,B,44680,Essence,Manuelle,Blanc banquise,5,5,2017,4.9,4,82,1,13206
+Peugeot 2008,12003293201508,Peugeot,2008,Suv 4x4,B,33920,Essence,Auto,Rouge ultimate,5,5,2017,4.4,4,82,1,16266
+Peugeot 2008,11911545201509,Peugeot,2008,Suv 4x4,B,20751,Essence,Manuelle,Gris hurricane,5,5,2017,4.9,4,82,1,15858
+Peugeot 2008,12002306201515,Peugeot,2008,Suv 4x4,B,42600,Essence,Auto,Rouge ultimate,5,5,2017,4.8,6,110,1,16776
+Peugeot 2008,12002306201516,Peugeot,2008,Suv 4x4,B,31750,Essence,Auto,Rouge ultimate,5,5,2017,4.8,6,110,1,17082
+Peugeot 2008,12003295201517,Peugeot,2008,Suv 4x4,B,57920,Essence,Auto,Gris hurricane,5,5,2017,4.8,6,110,1,16266
+Peugeot 2008,12003741202890,Peugeot,2008,Suv 4x4,A,9945,Diesel,Manuelle,Noir perla nera,5,5,2019,3.5,5,102,2,19836
+Peugeot 2008,12003749202892,Peugeot,2008,Suv 4x4,B,2664,Essence,Auto,Noir perla nera,5,5,2019,5.5,6,110,1,19326
+Peugeot 2008,12003749202893,Peugeot,2008,Suv 4x4,B,3258,Essence,Auto,Noir perla nera,5,5,2019,5.5,6,110,1,19326
+Peugeot 2008,12003838202946,Peugeot,2008,Suv 4x4,B,4903,Essence,Auto,Noir perla nera,5,5,2019,5.5,6,110,1,19836
+Peugeot 2008,12003897203013,Peugeot,2008,Suv 4x4,B,36420,Essence,Manuelle,Noir perla nera,5,5,2017,4.4,5,110,1,16776
+Peugeot 2008,11911545203015,Peugeot,2008,Suv 4x4,B,41800,Essence,Manuelle,Gris hurricane,5,5,2017,4.9,4,82,1,15042
+Peugeot 2008,12002909203124,Peugeot,2008,Suv 4x4,B,47290,Essence,Manuelle,Noir perla nera,5,5,2017,4.9,4,82,1,13512
+Peugeot 2008,12002608203125,Peugeot,2008,Suv 4x4,B,45550,Essence,Manuelle,Gris hurricane,5,5,2017,4.9,4,82,1,13104
+Peugeot 2008,11911574203126,Peugeot,2008,Suv 4x4,B,42010,Essence,Auto,Gris platinium,5,5,2017,4.8,6,110,1,15756
+Peugeot 2008,12003838203336,Peugeot,2008,Suv 4x4,B,3519,Essence,Auto,Noir perla nera,5,5,2019,5.5,6,110,1,20040
+Peugeot 2008,12004172203491,Peugeot,2008,Suv 4x4,A,6349,Diesel,Manuelle,Gris platinium,5,5,2019,3.5,5,102,2,19326
+Peugeot 2008,12004181203494,Peugeot,2008,Suv 4x4,A,4648,Diesel,Manuelle,Noir perla nera,5,5,2019,3.5,5,102,2,21366
+Peugeot 2008,12004181203495,Peugeot,2008,Suv 4x4,A,4450,Diesel,Manuelle,Gris platinium,5,5,2019,3.5,5,102,2,21366
+Peugeot 2008,12004188203504,Peugeot,2008,Suv 4x4,A,5766,Diesel,Manuelle,Gris artense,5,5,2019,3.5,5,102,2,19836
+Peugeot 2008,12003853203580,Peugeot,2008,Suv 4x4,B,9770,Essence,Manuelle,Noir perla nera,5,5,2019,5.1,7,130,1,19734
+Peugeot 2008,12004296203831,Peugeot,2008,Suv 4x4,B,6871,Essence,Auto,Gris artense,5,5,2019,5.5,6,110,1,19326
+Peugeot 208,11911596198137,Peugeot,208,Citadine,A,62278,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12492
+Peugeot 208,11911596198138,Peugeot,208,Citadine,A,32394,Diesel,Manuelle,Dark blue,5,5,2017,3.5,4,100,2,13716
+Peugeot 208,11911596198139,Peugeot,208,Citadine,A,42789,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,11911596198155,Peugeot,208,Citadine,A,59833,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,12594
+Peugeot 208,11911596198156,Peugeot,208,Citadine,A,51195,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,12798
+Peugeot 208,11911596198158,Peugeot,208,Citadine,A,52539,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,12798
+Peugeot 208,12002261199240,Peugeot,208,Citadine,A,52858,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13104
+Peugeot 208,12002261199241,Peugeot,208,Citadine,A,69521,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12798
+Peugeot 208,12002261199834,Peugeot,208,Citadine,A,36594,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13716
+Peugeot 208,11911596199835,Peugeot,208,Citadine,A,15917,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,14634
+Peugeot 208,12002882199836,Peugeot,208,Citadine,A,43163,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,12002593201486,Peugeot,208,Citadine,B,23880,Essence,Manuelle,Gris hurricane,5,5,2017,4.5,4,82,1,13206
+Peugeot 208,11911596201487,Peugeot,208,Citadine,A,44619,Diesel,Manuelle,Bleu virtuel,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,11911596201488,Peugeot,208,Citadine,A,56562,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,12696
+Peugeot 208,12002605201503,Peugeot,208,Citadine,B,24480,Essence,Manuelle,Gris hurricane,5,5,2017,4.5,4,82,1,13308
+Peugeot 208,12003673202512,Peugeot,208,Citadine,B,12216,Essence,Manuelle,Noir perla nera,5,5,2019,4.7,4,82,1,15246
+Peugeot 208,12003673203077,Peugeot,208,Citadine,B,6944,Essence,Manuelle,Gris artense,5,5,2019,4.7,4,82,1,15756
+Peugeot 208,12002243203080,Peugeot,208,Citadine,B,42890,Essence,Manuelle,Ice grey,5,5,2017,4.5,4,82,1,12186
+Peugeot 208,12003930203096,Peugeot,208,Citadine,A,61942,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12186
+Peugeot 208,12003930203097,Peugeot,208,Citadine,A,47140,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12696
+Peugeot 208,12003692203487,Peugeot,208,Citadine,B,5334,Essence,Manuelle,Dark blue,5,5,2019,4.7,4,82,1,15042
+Citroën grand c4 spacetourer,12001629197549,Citroën,Grand c4 spacetourer,Monospace,B,3871,Essence,Manuelle,Gris acier,5,7,2019,0.0,7,130,1,25956
+Peugeot 208,11908163194118,Peugeot,208,Citadine,A,17329,Diesel,Manuelle,Noir perla nera,5,5,2016,3.5,4,100,2,14226
+Peugeot 208,11908157194129,Peugeot,208,Citadine,A,33000,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,14124
+Peugeot 208,11908157194134,Peugeot,208,Citadine,A,80302,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,12186
+Peugeot 208,11908157197551,Peugeot,208,Citadine,A,48122,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13002
+Peugeot 208,12002142197751,Peugeot,208,Citadine,A,39146,Diesel,Manuelle,Noir perla nera,3,5,2017,3.5,4,75,2,12996
+Peugeot 208,11911596198129,Peugeot,208,Citadine,A,44309,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,11911596198130,Peugeot,208,Citadine,A,23777,Diesel,Manuelle,Dark blue,5,5,2017,3.5,4,100,2,14226
+Peugeot 208,11911596198131,Peugeot,208,Citadine,A,40854,Diesel,Manuelle,Dark blue,5,5,2017,3.5,4,100,2,12629
+Peugeot 208,11911596198132,Peugeot,208,Citadine,A,28295,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,14226
+Peugeot 208,11911596198133,Peugeot,208,Citadine,A,24196,Diesel,Manuelle,Bleu virtuel,5,5,2017,3.5,4,100,2,14226
+Peugeot 208,11911596198134,Peugeot,208,Citadine,A,35755,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13512
+Peugeot 208,11911596198135,Peugeot,208,Citadine,A,60826,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,12594
+Peugeot 208,11911596198136,Peugeot,208,Citadine,A,55281,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12696
+Peugeot 208,11911596198141,Peugeot,208,Citadine,A,33536,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13716
+Peugeot 208,11911596198142,Peugeot,208,Citadine,A,45673,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13104
+Peugeot 208,11911596198143,Peugeot,208,Citadine,A,58072,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12594
+Peugeot 208,11911596198144,Peugeot,208,Citadine,A,21314,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,14226
+Peugeot 208,11911596198145,Peugeot,208,Citadine,A,32332,Diesel,Manuelle,Bleu virtuel,5,5,2017,3.5,4,100,2,13716
+Peugeot 208,11911596198146,Peugeot,208,Citadine,A,46259,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13104
+Peugeot 208,11911596198147,Peugeot,208,Citadine,A,43458,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,11911596198149,Peugeot,208,Citadine,A,34116,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13512
+Peugeot 208,11911596198150,Peugeot,208,Citadine,A,25374,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,14226
+Peugeot 208,11911596198151,Peugeot,208,Citadine,A,50589,Diesel,Manuelle,Dark blue,5,5,2017,3.5,4,100,2,12798
+Peugeot 208,11911596198152,Peugeot,208,Citadine,A,46986,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13104
+Peugeot 208,11911596198153,Peugeot,208,Citadine,A,55997,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12696
+Peugeot 208,12002261198154,Peugeot,208,Citadine,A,38107,Diesel,Manuelle,Rouge rubi,5,5,2017,3.5,4,100,2,13716
+Peugeot 208,11911596198159,Peugeot,208,Citadine,A,68288,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,12390
+Peugeot 208,12002261198160,Peugeot,208,Citadine,A,55287,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13104
+Peugeot 208,11911596198161,Peugeot,208,Citadine,A,60951,Diesel,Manuelle,Dark blue,5,5,2017,3.5,4,100,2,12594
+Peugeot 208,11911596198162,Peugeot,208,Citadine,A,48625,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,13002
+Peugeot 208,12002591199231,Peugeot,208,Citadine,B,20490,Essence,Manuelle,Rouge rubi,5,5,2017,4.5,4,82,1,13206
+Peugeot 208,12002593199234,Peugeot,208,Citadine,B,41280,Essence,Manuelle,Gris hurricane,5,5,2017,4.5,4,82,1,12186
+Peugeot 208,12002261199237,Peugeot,208,Citadine,A,63564,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,12798
+Peugeot 208,12002261199238,Peugeot,208,Citadine,A,53448,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13002
+Peugeot 208,11911596199239,Peugeot,208,Citadine,A,41898,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,11911596199243,Peugeot,208,Citadine,A,37356,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,13512
+Peugeot 208,11911532199279,Peugeot,208,Citadine,B,11292,Essence,Manuelle,Rouge rubi,5,5,2017,4.5,4,82,1,13818
+Peugeot 208,11911532199282,Peugeot,208,Citadine,B,60120,Essence,Manuelle,Orange power,5,5,2017,4.5,4,82,1,12186
+Peugeot 208,12002605199283,Peugeot,208,Citadine,B,39380,Essence,Manuelle,Gris hurricane,5,5,2017,4.5,4,82,1,13002
+Peugeot 208,12002606199284,Peugeot,208,Citadine,B,19600,Essence,Manuelle,Ice silver,5,5,2017,4.5,4,82,1,13818
+Peugeot 208,12002592199827,Peugeot,208,Citadine,B,44470,Essence,Manuelle,Blanc banquise,5,5,2017,4.5,4,82,1,12186
+Peugeot 208,12002261199829,Peugeot,208,Citadine,A,79877,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,12492
+Peugeot 208,11911596199830,Peugeot,208,Citadine,A,43980,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,11911596199831,Peugeot,208,Citadine,A,90381,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,11676
+Peugeot 208,12002261199832,Peugeot,208,Citadine,A,50958,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,12002261199833,Peugeot,208,Citadine,A,70937,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12696
+Peugeot 208,11911532199901,Peugeot,208,Citadine,B,60110,Essence,Manuelle,Gris aluminium,5,5,2017,4.5,4,82,1,12186
+Peugeot 208,11911532199902,Peugeot,208,Citadine,B,40750,Essence,Manuelle,Gris aluminium,5,5,2017,4.5,4,82,1,13104
+Peugeot 208,12002592201485,Peugeot,208,Citadine,B,25980,Essence,Manuelle,Blanc banquise,5,5,2017,4.5,4,82,1,12696
+Peugeot 208,11911596201489,Peugeot,208,Citadine,A,48925,Diesel,Manuelle,Rouge rubi,5,5,2017,3.5,4,100,2,13002
+Peugeot 208,11911596201490,Peugeot,208,Citadine,A,60479,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,12594
+Peugeot 208,11911596201491,Peugeot,208,Citadine,A,33935,Diesel,Manuelle,Dark blue,5,5,2017,3.5,4,100,2,13716
+Peugeot 208,11911596201492,Peugeot,208,Citadine,A,43760,Diesel,Manuelle,Dark blue,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,11911596201493,Peugeot,208,Citadine,A,27289,Diesel,Manuelle,Gris aluminium,5,5,2017,3.5,4,100,2,14226
+Peugeot 208,11911596201494,Peugeot,208,Citadine,A,28252,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,14226
+Peugeot 208,11911596201499,Peugeot,208,Citadine,A,29095,Diesel,Manuelle,Rouge rubi,5,5,2017,3.5,4,100,2,14226
+Peugeot 208,11911532201500,Peugeot,208,Citadine,B,52998,Essence,Manuelle,Bleu virtuel,5,5,2017,4.5,4,82,1,12492
+Peugeot 208,11911532201501,Peugeot,208,Citadine,B,26430,Essence,Manuelle,Rouge rubi,5,5,2017,4.5,4,82,1,13206
+Peugeot 208,11911532201502,Peugeot,208,Citadine,B,44880,Essence,Manuelle,Rouge rubi,5,5,2017,4.5,4,82,1,12798
+Peugeot 208,12003665202510,Peugeot,208,Citadine,B,10748,Essence,Manuelle,Noir perla nera,5,5,2019,4.7,4,82,1,13716
+Peugeot 208,12003673202511,Peugeot,208,Citadine,B,12231,Essence,Manuelle,Noir perla nera,5,5,2019,4.7,4,82,1,15246
+Peugeot 208,12003683202531,Peugeot,208,Citadine,B,7722,Essence,Manuelle,Gris platinium,5,5,2019,4.7,4,82,1,14736
+Peugeot 208,12003683202532,Peugeot,208,Citadine,B,5978,Essence,Manuelle,Gris platinium,5,5,2019,4.7,4,82,1,14736
+Peugeot 208,12003683202534,Peugeot,208,Citadine,B,792,Essence,Manuelle,Rouge rubi,5,5,2019,4.7,4,82,1,15756
+Peugeot 208,12003692202555,Peugeot,208,Citadine,B,7144,Essence,Manuelle,Dark blue,5,5,2019,4.7,4,82,1,14736
+Peugeot 208,12003673202938,Peugeot,208,Citadine,B,7462,Essence,Manuelle,Gris platinium,5,5,2019,4.7,4,82,1,15756
+Peugeot 208,11911532203073,Peugeot,208,Citadine,B,45410,Essence,Manuelle,Gris aluminium,5,5,2017,4.5,4,82,1,12798
+Peugeot 208,12002605203074,Peugeot,208,Citadine,B,35040,Essence,Manuelle,Gris hurricane,5,5,2017,4.5,4,82,1,13104
+Peugeot 208,11911532203075,Peugeot,208,Citadine,B,31890,Essence,Manuelle,Rouge rubi,5,5,2017,4.5,4,82,1,13308
+Peugeot 208,12002605203076,Peugeot,208,Citadine,B,16580,Essence,Manuelle,Gris hurricane,5,5,2017,4.5,4,82,1,13716
+Peugeot 208,12002593203081,Peugeot,208,Citadine,B,40230,Essence,Manuelle,Gris hurricane,5,5,2017,4.5,4,82,1,12186
+Peugeot 208,12002591203082,Peugeot,208,Citadine,B,40880,Essence,Manuelle,Orange power,5,5,2017,4.5,4,82,1,12186
+Peugeot 208,12002591203083,Peugeot,208,Citadine,B,29760,Essence,Manuelle,Rouge rubi,5,5,2017,4.5,4,82,1,13206
+Peugeot 208,12002261203084,Peugeot,208,Citadine,A,47569,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,12003930203085,Peugeot,208,Citadine,A,36060,Diesel,Manuelle,Bleu virtuel,5,5,2017,3.5,4,100,2,12900
+Peugeot 208,12003930203086,Peugeot,208,Citadine,A,26643,Diesel,Manuelle,Rouge rubi,5,5,2017,3.5,4,100,2,13206
+Peugeot 208,12003933203088,Peugeot,208,Citadine,A,52654,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13104
+Peugeot 208,12003930203092,Peugeot,208,Citadine,A,46605,Diesel,Manuelle,Gris shark,5,5,2017,3.5,4,100,2,12696
+Peugeot 208,12003930203093,Peugeot,208,Citadine,A,63163,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,12084
+Peugeot 208,12003930203094,Peugeot,208,Citadine,A,61967,Diesel,Manuelle,Rouge rubi,5,5,2017,3.5,4,100,2,12186
+Peugeot 208,12003933203095,Peugeot,208,Citadine,A,40123,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13308
+Peugeot 208,12003657203176,Peugeot,208,Citadine,B,10023,Essence,Manuelle,Gris artense,5,5,2019,4.7,4,82,1,13716
+Peugeot 208,12003657203177,Peugeot,208,Citadine,B,7881,Essence,Manuelle,Gris platinium,5,5,2019,4.7,4,82,1,14022
+Peugeot 208,12003791203455,Peugeot,208,Citadine,B,13559,Essence,Manuelle,Noir perla nera,5,5,2019,4.5,5,110,1,16470
+Peugeot 208,12004196203530,Peugeot,208,Citadine,B,13958,Essence,Manuelle,Gris platinium,5,5,2019,4.7,4,82,1,14226
+Peugeot 208,12004318203943,Peugeot,208,Citadine,A,11197,Diesel,Manuelle,Gris artense,5,5,2019,3.2,5,102,2,16776
+Peugeot 3008,12002639199418,Peugeot,3008,Suv 4x4,B,37900,Diesel,Auto,Rouge ultimate,5,5,2017,4.2,6,120,2,23916
+Peugeot 3008,12002935203070,Peugeot,3008,Suv 4x4,B,3056,Diesel,Manuelle,Metallic copper,5,5,2019,4.1,6,130,2,30546
+Peugeot 208,11908157193645,Peugeot,208,Citadine,A,36000,Diesel,Manuelle,Noir perla nera,5,5,2017,3.5,4,100,2,13716
+Peugeot 3008,12000599194981,Peugeot,3008,Suv 4x4,B,2679,Essence,Manuelle,Metallic copper,5,5,2019,5.0,7,130,1,28506
+Peugeot 3008,12000749195240,Peugeot,3008,Suv 4x4,B,4893,Essence,Manuelle,Gris artense,5,5,2019,5.0,7,130,1,25446
+Peugeot 3008,12001366196238,Peugeot,3008,Suv 4x4,C,1467,Essence,Auto,Metallic copper,5,5,2019,5.6,10,180,1,32586
+Peugeot 3008,12001368196239,Peugeot,3008,Suv 4x4,C,2612,Essence,Auto,Rouge ultimate,5,5,2019,5.6,10,180,1,32586
+Peugeot 3008,12002372198536,Peugeot,3008,Suv 4x4,B,13015,Diesel,Auto,Metallic copper,5,5,2019,4.0,6,130,2,30036
+Peugeot 3008,12002645199419,Peugeot,3008,Suv 4x4,B,45820,Diesel,Auto,Bleu magnetic,5,5,2017,4.2,6,120,2,23916
+Peugeot 3008,12002645199420,Peugeot,3008,Suv 4x4,B,42562,Diesel,Auto,Gris amazonite,5,5,2017,4.2,6,120,2,24018
+Peugeot 3008,12002652199492,Peugeot,3008,Suv 4x4,B,45600,Diesel,Manuelle,Gris amazonite,5,5,2017,4.0,6,120,2,24426
+Peugeot 3008,12002654199548,Peugeot,3008,Suv 4x4,B,45512,Diesel,Auto,Gris amazonite,5,5,2017,4.2,6,120,2,25446
+Peugeot 3008,12002665199550,Peugeot,3008,Suv 4x4,B,23170,Diesel,Auto,Gris artense,5,5,2017,4.2,6,120,2,26058
+Peugeot 3008,12002665199551,Peugeot,3008,Suv 4x4,B,84320,Diesel,Auto,Gris artense,5,5,2017,4.2,6,120,2,23916
+Peugeot 3008,12002723199607,Peugeot,3008,Suv 4x4,B,3926,Diesel,Manuelle,Metallic copper,5,5,2019,4.1,7,130,2,28506
+Peugeot 3008,12002665199914,Peugeot,3008,Suv 4x4,B,59130,Diesel,Auto,Gris artense,5,5,2017,4.2,6,120,2,24834
+Peugeot 3008,12003297201538,Peugeot,3008,Suv 4x4,B,45523,Diesel,Manuelle,Noir perla nera,5,5,2017,4.0,6,120,2,23406
+Peugeot 3008,12003297201539,Peugeot,3008,Suv 4x4,B,43906,Diesel,Manuelle,Noir perla nera,5,5,2017,4.0,6,120,2,23406
+Peugeot 3008,12002645201564,Peugeot,3008,Suv 4x4,B,32264,Diesel,Auto,Gris amazonite,5,5,2017,4.2,6,120,2,24426
+Peugeot 3008,12002639203140,Peugeot,3008,Suv 4x4,B,41780,Diesel,Auto,Rouge ultimate,5,5,2017,4.2,6,120,2,23712
+Peugeot 3008,12003955203141,Peugeot,3008,Suv 4x4,B,44730,Diesel,Auto,Blanc banquise,5,5,2017,4.2,6,120,2,23916
+Peugeot 3008,12002723203572,Peugeot,3008,Suv 4x4,B,6650,Diesel,Manuelle,Metallic copper,5,5,2019,4.1,7,130,2,28098
+Peugeot 308,12001771197080,Peugeot,308,Berline,B,2653,Essence,Manuelle,Dark blue,5,5,2019,4.7,5,110,1,19326
+Peugeot 308,12002262198124,Peugeot,308,Berline,A,8349,Diesel,Manuelle,Noir perla nera,5,5,2019,3.7,5,100,2,20346
+Peugeot 308,11911603199911,Peugeot,308,Berline,A,40077,Diesel,Manuelle,Dark blue,5,5,2017,3.1,5,120,2,15756
+Peugeot 308,11911603201510,Peugeot,308,Berline,A,58613,Diesel,Manuelle,Gris artense,5,5,2017,3.1,5,120,2,15144
+Peugeot 308,12002303201513,Peugeot,308,Berline,A,53343,Diesel,Manuelle,Blanc banquise,5,5,2017,3.1,5,120,2,15246
+Peugeot 308,12002303201514,Peugeot,308,Berline,A,42252,Diesel,Manuelle,Blanc banquise,5,5,2017,3.1,5,120,2,15858
+Peugeot 308,11911603203132,Peugeot,308,Berline,A,55594,Diesel,Manuelle,Gris artense,5,5,2017,3.1,5,120,2,15246
+Peugeot 308,11911603203133,Peugeot,308,Berline,A,68885,Diesel,Manuelle,Gris artense,5,5,2017,3.1,5,120,2,14940
+Peugeot 308,11911603203134,Peugeot,308,Berline,A,58638,Diesel,Manuelle,Gris artense,5,5,2017,3.1,5,120,2,15144
+Peugeot 308,12002300203135,Peugeot,308,Berline,A,65832,Diesel,Manuelle,Gris artense,5,5,2017,3.1,5,120,2,15042
+Peugeot 308 sw,12487950181248795018,Peugeot,308 sw,Berline,A,10,Diesel,Auto,Blanc,5,5,2020,0.0,13,225,2,28228
+Peugeot 5008,12002984200181,Peugeot,5008,Suv 4x4,B,1518,Diesel,Manuelle,Emerald crystal,5,7,2019,0.0,6,130,2,31056
+Peugeot 5008,12003341201706,Peugeot,5008,Monospace,C,15770,Diesel,Auto,Gris platinium,5,7,2019,0.0,10,180,2,33351
+Peugeot 5008,12003341201707,Peugeot,5008,Monospace,C,16716,Diesel,Auto,Noir perla nera,5,7,2019,0.0,10,180,2,33351
+Peugeot 5008,12003341201708,Peugeot,5008,Monospace,C,17696,Diesel,Auto,Noir perla nera,5,7,2019,0.0,10,180,2,33351
+Peugeot 5008,12003331201710,Peugeot,5008,Monospace,C,35729,Diesel,Auto,Blanc banquise / toit noir perla nera,5,7,2019,0.0,10,180,2,33351
+Peugeot 508,12002397199609,Peugeot,508,Berline,B,20750,Diesel,Auto,Dark blue,5,5,2019,4.5,8,160,2,27741
+Peugeot 508,12002722199612,Peugeot,508,Berline,B,13390,Diesel,Auto,Blanc nacré,5,5,2019,4.5,8,160,2,28761
+Peugeot 508,12002722199613,Peugeot,508,Berline,B,15190,Diesel,Auto,Blanc nacré,5,5,2019,4.5,8,160,2,28761
+Peugeot 508,12002722199615,Peugeot,508,Berline,B,23795,Diesel,Auto,Blanc nacré,5,5,2019,4.5,8,160,2,28251
+Peugeot 508,12002722199617,Peugeot,508,Berline,B,14956,Diesel,Auto,Rouge ultimate,5,5,2019,4.5,8,160,2,28761
+Peugeot 508,12002722199619,Peugeot,508,Berline,B,18998,Diesel,Auto,Rouge ultimate,5,5,2019,4.5,8,160,2,28251
+Peugeot 508,12002722199620,Peugeot,508,Berline,B,22983,Diesel,Auto,Rouge ultimate,5,5,2019,4.5,8,160,2,28251
+Peugeot 508 nouvelle,12001964200712,Peugeot,508 nouvelle,Berline,C,24854,Essence,Auto,Noir perla nera,5,5,2019,5.0,10,180,1,28812
+Peugeot 508 nouvelle,12001964200713,Peugeot,508 nouvelle,Berline,C,26603,Essence,Auto,Gris amazonite,5,5,2019,5.0,10,180,1,28506
+Peugeot 508 nouvelle,12001964200714,Peugeot,508 nouvelle,Berline,C,25471,Essence,Auto,Noir perla nera,5,5,2019,5.0,10,180,1,28608
+Peugeot rifter,14910654311491065431,Peugeot,Rifter,Monospace,B,10,Essence,Manuelle,Platine,5,5,2019,0.0,6,110,1,20728
+Renault captur,11910059189504,Renault,Captur,Suv 4x4,C,10537,Essence,Manuelle,Bleu iron toit noir,5,5,2019,5.5,8,150,1,17796
+Renault captur,11910054189517,Renault,Captur,Suv 4x4,C,3296,Essence,Manuelle,Bleu iron toit noir,5,5,2019,5.5,8,150,1,18306
+Renault captur,13233271831323327183,Renault,Captur,Suv 4x4,C,47323,Essence,Auto,Rouge,5,5,2016,0.0,6,120,1,13728
+Renault clio iv business,11908863202489,Renault,Clio iv business,Berline,A,35413,Diesel,Manuelle,Gris platine,5,5,2018,3.2,4,90,2,12798
+Peugeot 3008,11907875185600,Peugeot,3008,Suv 4x4,B,30970,Diesel,Manuelle,Gris amazonite,5,5,2019,4.1,6,130,2,25956
+Peugeot 3008,12000462194292,Peugeot,3008,Suv 4x4,B,4707,Essence,Manuelle,Noir perla nera,5,5,2019,5.0,7,130,1,27996
+Renault clio v,13737174071373717407,Renault,Clio v,Berline,B,10,Essence,Manuelle,Titane,5,5,2020,0.0,5,100,1,18728
+Renault clio v,15216335961521633596,Renault,Clio v,Berline,A,10,Essence,Manuelle,Rouge,5,5,2020,0.0,5,100,1,17628
+Renault kadjar,11910898190918,Renault,Kadjar,Suv 4x4,C,4809,Essence,Manuelle,Brun cappuccino,5,5,2019,5.9,9,160,1,22131
+Renault kadjar,11910893190919,Renault,Kadjar,Suv 4x4,C,7211,Essence,Manuelle,Blanc nacré,5,5,2019,5.9,9,160,1,22131
+Renault kadjar,11910893190920,Renault,Kadjar,Suv 4x4,C,11103,Essence,Manuelle,Blanc nacré,5,5,2019,5.9,9,160,1,22131
+Renault kadjar,11910893190921,Renault,Kadjar,Suv 4x4,C,7727,Essence,Manuelle,Blanc nacré,5,5,2019,5.9,9,160,1,22131
+Renault kadjar,11910899190922,Renault,Kadjar,Suv 4x4,C,16943,Essence,Manuelle,Blanc nacré,5,5,2018,5.9,9,160,1,21366
+Renault kadjar,11910924190927,Renault,Kadjar,Suv 4x4,C,6834,Essence,Manuelle,Blanc nacré,5,5,2019,5.9,9,160,1,22386
+Renault kadjar,11910933190929,Renault,Kadjar,Suv 4x4,C,11376,Essence,Auto,Rouge flamme,5,5,2018,5.8,7,130,1,22386
+Renault kadjar,13626121881362612188,Renault,Kadjar,Berline,C,35365,Essence,Auto,Gris anthracite,5,5,2016,0.0,7,130,1,17028
+Renault kadjar,15325776081532577608,Renault,Kadjar,Berline,C,45972,Essence,Manuelle,Noir,5,5,2016,0.0,7,130,1,15528
+Renault kadjar nouveau,11910803190847,Renault,Kadjar nouveau,Suv 4x4,C,16329,Essence,Auto,Blanc nacré,5,5,2019,5.8,9,160,1,23406
+Renault kadjar nouveau,11910803190848,Renault,Kadjar nouveau,Suv 4x4,C,9714,Essence,Auto,Bleu iron,5,5,2019,5.8,9,160,1,23406
+Renault kadjar nouveau,11910803190849,Renault,Kadjar nouveau,Suv 4x4,C,5988,Essence,Auto,Bleu iron,5,5,2018,5.8,9,160,1,23406
+Renault mégane iii,13794962441379496244,Renault,Mégane iii,Berline,C,64798,Essence,Manuelle,Blanc,5,5,2015,0.0,6,115,1,9228
+Renault mégane iv,16539844391653984439,Renault,Mégane iv,Berline,C,6000,Essence,Auto,Noir,5,5,2019,0.0,8,160,1,22638
+Renault megane iv berline,12003470195292,Renault,Megane iv berline,Berline,B,5285,Diesel,Manuelle,Bleu iron,5,5,2019,4.3,6,115,2,22386
+Renault megane iv berline,12003629202495,Renault,Megane iv berline,Berline,B,29510,Essence,Manuelle,Beige dune,5,5,2016,5.3,7,130,1,15103
+Renault scénic,13023739991302373999,Renault,Scénic,Monospace,C,26021,Essence,Manuelle,Platine,5,5,2017,0.0,6,115,1,16228
+Renault trafic,17209166481720916648,Renault,Trafic,Monospace,D,23956,Diesel,Manuelle,Gris,4,9,2017,0.0,7,125,2,23638
+Renault twingo iii,15828646421582864642,Renault,Twingo iii,Citadine,A,10,Essence,Manuelle,Noir,5,4,2019,0.0,4,75,1,11928
+Renault twingo iii,15908868141590886814,Renault,Twingo iii,Citadine,A,10,Essence,Manuelle,Rouge,5,4,2019,0.0,4,75,1,11928
+Renault twingo iii,19573848281957384828,Renault,Twingo iii,Citadine,A,10,Essence,Manuelle,Gris clair,5,4,2019,0.0,4,75,1,11728
