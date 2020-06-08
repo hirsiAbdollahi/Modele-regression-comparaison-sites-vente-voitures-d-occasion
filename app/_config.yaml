@@ -1,0 +1,97 @@
+
+# marque
+marque:
+    item0: Peugeot
+    item1: Renault
+    item2: Citroen
+
+# modele
+modele:
+    item0: C3
+    item1: 2008
+    item2: 208
+    item3: clio 4
+
+# categorie
+categorie:
+    item0: SUV 4X4
+    item1: Citadine
+    item2: Monospace
+    item3: Berline
+
+
+# Carburant
+carburant:
+    item0: Diesel
+    item1: Essence
+
+# Km
+nb_km:
+    item0: 200000
+    item1: 800000
+  
+# couleur
+modele:
+    item0: blanc
+    item1: noir
+
+
+
+# Nombre de portes
+modele:
+    item0: 3
+    item1: 5
+
+
+# nombres de places
+modele:
+    item0: 5
+    item1: 2008
+ 
+# mise en circulation
+modele:
+    item0: C3
+    item1: 2008
+    item2: 208
+    item3: clio 4
+
+# C02
+modele:
+    item0: C3
+    item1: 2008
+    item2: 208
+    item3: clio 4
+
+# Consommation mixte
+modele:
+    item0: C3
+    item1: 2008
+    item2: 208
+    item3: clio 4
+
+# Puissance fiscale
+modele:
+    item0: C3
+    item1: 2008
+    item2: 208
+    item3: clio 4
+
+# Puissance din
+modele:
+    item0: C3
+    item1: 2008
+    item2: 208
+    item3: clio 4
+
+
+
+
+
+
+
+
+
+
+
+
+

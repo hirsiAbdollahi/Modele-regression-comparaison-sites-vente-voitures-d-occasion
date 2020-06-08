@@ -1,0 +1,185 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
+    <link href="static/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="s008">
+    
+      <form action="."  method="post">
+        <div class="inner-form">
+    
+          <div class="advance-search">
+    
+            <div class="row">
+              {{ form.csrf_token }}
+              <div class="input-field">
+                <div class="input-select">
+                  {{ form.marque}}
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  {{ form.categorie }}
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  {{ form.modele }}
+                </div>
+              </div>
+            </div>
+            <div class="row second ">
+              <div class="input-field choices">
+                <div class="input-select">
+                  {{ form.carburant }}
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  {{ form.km }}
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  {{ form.boite_vitesse }}
+                </div>
+              </div>
+            </div>
+            <div class="row second">
+              <div class="input-field">
+                {{ form.mise_circulation}}
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  {{ form.p_fiscale }}
+                </div>
+              </div>
+            </div>
+           
+            <div class="row third">
+              <div class="input-field">
+                <div class="group-btn">
+                  <button class="btn-delete" id="delete">Reset</button>
+                  <button type="submit" class="btn-search" id="submit">Prediction</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <!-- {{ prediction_text }} -->
+
+    </div>
+
+
+
+    <script src="static/js/extention/choices.js"></script>
+    <script>
+      const customSelects = document.querySelectorAll("select");
+      const deleteBtn = document.getElementById('delete')
+
+      // const choices = new Choices('select',
+      //                   {
+      //                     searchEnabled: false,
+      //                     removeItemButton: true,
+      //                     itemSelectText: '',
+      //                   });
+
+
+
+    
+      for (let i = 0; i < customSelects.length; i++)
+      {
+        customSelects[i].addEventListener('addItem', function(event)
+        {
+          if (event.detail.value)
+          {
+            let parent = this.parentNode.parentNode
+            parent.classList.add('valid')
+            parent.classList.remove('invalid')
+          }
+          else
+          {
+            let parent = this.parentNode.parentNode
+            parent.classList.add('invalid')
+            parent.classList.remove('valid')
+          }
+        }, false);
+      }
+      deleteBtn.addEventListener("click", function(e)
+      {
+        e.preventDefault()
+        const deleteAll = document.querySelectorAll('.choices__button')
+        for (let i = 0; i < deleteAll.length; i++)
+        {
+          deleteAll[i].click();
+        }
+      });
+
+</script>
+<script>
+      let marque_select = document.getElementById("marque");
+      let categorie_select = document.getElementById("categorie");
+      let modele_select = document.getElementById("modele");
+
+        marque_select.onchange = function()  {
+             
+            marque = marque_select.value;
+            categorie = categorie_select.value;
+           
+
+            fetch('/modele/' + marque + '&' + categorie).then(function(response) {
+
+                response.json().then(function(data) {
+                  
+                    let optionHTML = '';
+                    
+                    for (let model of data.modeles) {
+                        optionHTML += '<option value="' + model.id +'">' + model.modele + '</option>';
+                    }
+
+                    document.getElementById("modele").innerHTML = optionHTML;
+                    
+                    console.table(optionHTML)
+                    
+
+                });
+                
+            });
+        }
+
+         
+        categorie_select.onchange = function()  {
+             
+             marque = marque_select.value;
+             categorie = categorie_select.value;
+             
+             fetch('/modele/' + marque + '&' + categorie).then(function(response) {
+ 
+                 response.json().then(function(data) {
+                   
+                     var optionHTML = '';
+ 
+                     for (var model of data.modeles) {
+                         optionHTML += '<option value="' + model.id + '">' + model.modele + '</option>';
+                     }
+                   
+                     document.getElementById("modele").innerHTML = optionHTML;
+                     console.table(optionHTML)
+                     
+
+                 })
+                 
+             });
+         }
+
+        
+    </script>
+  </body>
+</html>
