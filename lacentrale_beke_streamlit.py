@@ -215,22 +215,24 @@ def get_data():
 #################################################
 #################################################
 
-###
-#title
+
+##################### PREAMBLE ######################
 st.title("Acheter une voiture d'occasion")
 st.markdown("Marques françaises seulement, d'autres marques bientôt disponibles...")
-
-##################### INPUT SPACES ######################
-
 lacentrale, beke = get_data() # load datasets
 
+##################### INPUT SPACES ######################
+algorithme = st.sidebar.selectbox(
+    'Quel estimateur désirez-vous?',
+     ('RF', 'Elastic', 'SVR'))
 marque = st.selectbox('Choisissez la marque', ('Renault', 'Citroen', 'Peugeot'))
 categorie = st.selectbox('Quelle type de voiture cherchez vous ?', ('Monospace', 'Citadine', 'Suv 4x4', 'Berline'))
 modele = st.selectbox('Choisissez le modèle', (intersection(modeles_lacentrale[marque], categories_lacentrale[categorie])))
-nb_km = st.slider("Kilométrage",0,300000)
+carburant = st.selectbox('Quel moteur ?', ('Diesel', 'Essence'))
+nb_km = st.slider("Kilométrage",0,100000)
 boite_vitesse = st.selectbox('Choisissez votre boite de vitesses', ('Manuelle', 'Auto'))
 mise_circulation = st.slider("Année",2000,2019)
-p_fiscale = st.slider("Puissance Fiscale",2,19)
+p_fiscale = st.slider("Puissance Fiscale",3,14)
 
 ##################### ARRAY FOR PREDICTION ######################
 dico = {'nom':'nom', 'ref':'ref', 
@@ -241,35 +243,31 @@ dico = {'nom':'nom', 'ref':'ref',
     'p_din':110, 'critair':1, 'prix':21366} 
 data_user = pd.DataFrame([dico])
 
-##################### COMPRARAISON AVEC BEKE ######################        
-if beke[beke['marque']== marque].empty is False:
-        d=beke[beke['marque']== marque]
-        if d[d['mise_circulation']== mise_circulation].empty is False:
-            ss= d[d['mise_circulation']== mise_circulation]['prix']
-            prix_beke =ss.iloc[0]
-        else:
-            prix_beke = beke[beke['modele']== modele]['prix'].iloc[0]
-else: prix_beke = 0
+##################### PRIX LACENTRALE ######################
+if st.button("Prix La Centrale"):
+    rfr_result = modele_entier_2(regression[algorithme], lacentrale, data_user)
+    st.success(f"Prix La Centrale : {round(int(rfr_result),0)} €")
 
-# try: 
-#             beke[beke['modele']== data_user['modele']  ]
-#             # d=beke[beke['modele']== ]
-        
-#         except: 
-#               print('bonjour')
-#         try: 
-#             d[d['mise_circulation']== data_user['mise_circulation'] ]
-#             ss = d[d['mise_circulation']== data_user['mise_circulation']]['prix']
-#             prix_beke = ss.iloc[0]
- 
-#         except:
-#             prix_beke = beke[beke['modele']== modele]['prix'].iloc[1]
-
-##################### AFFICHAGE DES PRIX ######################
-if st.button("Afficher les prix"):
-    rfr_result = modele_entier_2(regression['RF'], lacentrale, data_user)
-    st.success(f"Prix La Centrale : {round(int(rfr_result),0)}. Prix Bekeautocenter : {round(int(prix_beke),0)}")
-
-
-
-
+##################### PRIX BEKEAUTOCENTER ######################
+if st.button("Prix Bekeautocenter : si vous trouvez moins cher ailleurs, on vous rembourse la différence !"):
+    try: 
+        prix_beke = beke[(beke.marque == marque) &
+        (beke.categorie == categorie) &
+        ((nb_km - 2000 <= beke.nb_km)&(beke.nb_km < nb_km + 2000)) &
+        (beke.boite_vitesse == boite_vitesse) &
+        (beke.mise_circulation == mise_circulation) ]['prix'].min()
+        st.success(f"Nous avons la voiture pour vous à partir de : {round(int(prix_beke),0)} € seulement !")
+    except:
+        try:
+            prix_beke = beke[(beke.marque == marque) &
+            (beke.categorie == categorie) &
+            (beke.boite_vitesse == boite_vitesse) &
+            (beke.mise_circulation >= mise_circulation) ]['prix'].min()
+            st.success(f"Quelle chance ! Nous avons des {categorie} {marque} (boîte {boite_vitesse}, année {mise_circulation} ou plus), à partir de : {round(int(prix_beke),0)} € seulement !")
+        except:
+            try:
+                prix_beke = beke[(beke.marque == marque) &
+                (beke.categorie == categorie)]['prix'].min()
+                st.success(f"Nous aimons les clients exigeants ! Découvrez nos {categorie} {marque}, à partir de : {round(int(prix_beke),0)} € seulement !")
+            except:
+                st.warning("Appelez nous pour chercher ensemble la voiture de vos rêves !")
