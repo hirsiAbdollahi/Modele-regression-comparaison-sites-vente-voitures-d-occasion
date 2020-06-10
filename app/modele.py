@@ -35,7 +35,7 @@ from sklearn import svm, datasets,preprocessing
 
 # cell multiple outputs
 from IPython.core.interactiveshell import InteractiveShell
-# InteractiveShell.ast_node_interactivity = "all"
+
 
 # Others :
 from itertools import cycle
@@ -44,7 +44,7 @@ from sklearn.pipeline import Pipeline
 import time
 
 lacentrale = pd.read_csv('lacentrale_clean_finale.csv')
-# beke = pd.read_csv('beke_processed.csv')
+
 lacentrale.mise_circulation=lacentrale.mise_circulation.astype(str)
 
 
@@ -58,37 +58,6 @@ def preprocessing():
         ('imputation', SimpleImputer(strategy='median')),
         ('standard', StandardScaler())])
 
-    # on définit les colonnes et les transformations pour
-    # les variables qualitatives
-
-    #variable ordinales
-    #le mapping = ordinal_cols_mapping
-    # ordinal_cols_mapping = [
-    #     {
-    #     "col":'co2',    
-    #     "mapping": {
-    #         'A':4, 
-    #         'B':3, 
-    #         'C':2, 
-    #         'D':1,       
-    #     }},
-
-    #     {
-    #     "col":'critair',    
-    #     "mapping": {
-    #         1:3, 
-    #         2:2, 
-    #         3:1,       
-    #     }} 
-    # ]
-
-
-    # col_quali_ord = ['co2','critair',]
-
-
-    # transfo_quali_ord = Pipeline(steps=[
-    #     ('ordinalEncoder', OrdinalEncoder(mapping=ordinal_cols_mapping, return_df = True))
-    # ])
 
     col_quali_nom= ['marque','categorie','modele','boite_vitesse', 'mise_circulation' ]
 
@@ -207,26 +176,11 @@ def modele_entier(cl, df_train, df_test=None):
     
     fit = grid.fit(X_train,y_train)
     
-    # print(grid.best_estimator_)
-    
-    # # Score de l'entraînement
-    # accuracy = grid.score(X_test, y_test)    
-    # print(("best score  : %.5f" % accuracy))
-    
-    # # Temps d'entraînement
-    # times = (time.time() - start_time)
-    # print("Temps d'entraînement' : %s secondes ---" % times)    
-    
-    # # PREDICTIONS
-    
-    # # on sépare la cible du reste des données (dataset de test)
-    # X_reel = df_test.drop(['prix','nom','ref'], axis=1)
-    # y_reel = df_test['prix']  
-    
-    # y_pred = grid.predict(X_reel)  
                                     
     return fit
 
+
+# la fonction  retourne le fit qu'on  insere ensuite dans notre pickle 
 fit = modele_entier(regression['SVR'], lacentrale)
 
 

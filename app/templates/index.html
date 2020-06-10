@@ -1,185 +1,135 @@
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="colorlib.com">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
-    <link href="static/css/main.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="s008">
-    
-      <form action="."  method="post">
-        <div class="inner-form">
-    
-          <div class="advance-search">
-    
-            <div class="row">
-              {{ form.csrf_token }}
-              <div class="input-field">
-                <div class="input-select">
-                  {{ form.marque}}
-                </div>
-              </div>
-              <div class="input-field">
-                <div class="input-select">
-                  {{ form.categorie }}
-                </div>
-              </div>
-              <div class="input-field">
-                <div class="input-select">
-                  {{ form.modele }}
-                </div>
-              </div>
-            </div>
-            <div class="row second ">
-              <div class="input-field choices">
-                <div class="input-select">
-                  {{ form.carburant }}
-                </div>
-              </div>
-              <div class="input-field">
-                <div class="input-select">
-                  {{ form.km }}
-                </div>
-              </div>
-              <div class="input-field">
-                <div class="input-select">
-                  {{ form.boite_vitesse }}
-                </div>
-              </div>
-            </div>
-            <div class="row second">
-              <div class="input-field">
-                {{ form.mise_circulation}}
-              </div>
-              <div class="input-field">
-                <div class="input-select">
-                  {{ form.p_fiscale }}
-                </div>
-              </div>
-            </div>
-           
-            <div class="row third">
-              <div class="input-field">
-                <div class="group-btn">
-                  <button class="btn-delete" id="delete">Reset</button>
-                  <button type="submit" class="btn-search" id="submit">Prediction</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
+             <!-- <link rel="stylesheet" media="screen" href="static/bootstrap.min.css"> -->
+             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-      <!-- {{ prediction_text }} -->
+        	 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    </div>
+      </head>
+      <body>
+
+<div class="container">
+
+  <div class="row justify-content-center">
+
+  <h2  class="text-success">Application </h2>
+</div>
+<form action="" method="post" >
+
+    {{ form.csrf_token }}
+
+
+<div class="form-group">
+      <label  class="text-success" >Marque:</label>
+      {{ form.marque(class_="form-control")}}
+
+      <label  class="text-success" >Type de vehicule:</label>
+      {{ form.categorie(class_="form-control") }}
+
+
+<label  class="text-success" >Modele:</label>
+{{ form.modele(class_="form-control") }}
+
+<label  class="text-success" >Mise en circulation</label>
+                {{ form.mise_circulation(class_="form-control") }}
+
+<label  class="text-success" >Kilometrage:</label>
+    {{ form.km(class_="form-control") }}              
+
+<label  class="text-success" >Carburant</label>
+     {{ form.carburant(class_="form-control") }}
+
+<label  class="text-success" >Puissance fiscale</label>
+{{ form.p_fiscale(class_="form-control") }}
+
+<label  class="text-success" >Boite de vitesse</label>
+                {{ form.boite_vitesse(class_="form-control") }}
+
+
+</div>
+<button type="submit" class="btn btn-success">Prediction</button>
+</form>
 
 
 
-    <script src="static/js/extention/choices.js"></script>
-    <script>
-      const customSelects = document.querySelectorAll("select");
-      const deleteBtn = document.getElementById('delete')
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class="flashes list-unstyled">
+    {% for message in messages %}
+      <li> <h2 class="text-success">{{ message }} </h1></li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
 
-      // const choices = new Choices('select',
-      //                   {
-      //                     searchEnabled: false,
-      //                     removeItemButton: true,
-      //                     itemSelectText: '',
-      //                   });
+</div>
 
 
 
-    
-      for (let i = 0; i < customSelects.length; i++)
-      {
-        customSelects[i].addEventListener('addItem', function(event)
-        {
-          if (event.detail.value)
-          {
-            let parent = this.parentNode.parentNode
-            parent.classList.add('valid')
-            parent.classList.remove('invalid')
-          }
-          else
-          {
-            let parent = this.parentNode.parentNode
-            parent.classList.add('invalid')
-            parent.classList.remove('valid')
-          }
-        }, false);
-      }
-      deleteBtn.addEventListener("click", function(e)
-      {
-        e.preventDefault()
-        const deleteAll = document.querySelectorAll('.choices__button')
-        for (let i = 0; i < deleteAll.length; i++)
-        {
-          deleteAll[i].click();
-        }
-      });
 
-</script>
-<script>
-      let marque_select = document.getElementById("marque");
-      let categorie_select = document.getElementById("categorie");
-      let modele_select = document.getElementById("modele");
 
-        marque_select.onchange = function()  {
-             
-            marque = marque_select.value;
-            categorie = categorie_select.value;
-           
+<script >
 
-            fetch('/modele/' + marque + '&' + categorie).then(function(response) {
 
-                response.json().then(function(data) {
-                  
-                    let optionHTML = '';
-                    
-                    for (let model of data.modeles) {
-                        optionHTML += '<option value="' + model.id +'">' + model.modele + '</option>';
-                    }
-
-                    document.getElementById("modele").innerHTML = optionHTML;
-                    
-                    console.table(optionHTML)
-                    
-
-                });
-                
-            });
-        }
-
+  let marque_select = document.getElementById("marque");
+  let categorie_select = document.getElementById("categorie");
+  let modele_select = document.getElementById("modele");
+  let carburant_select = document.getElementById("carburant");
+  console.log(marque_select)
+    marque_select.onchange = function()  {
          
-        categorie_select.onchange = function()  {
-             
-             marque = marque_select.value;
-             categorie = categorie_select.value;
-             
-             fetch('/modele/' + marque + '&' + categorie).then(function(response) {
- 
-                 response.json().then(function(data) {
-                   
-                     var optionHTML = '';
- 
-                     for (var model of data.modeles) {
-                         optionHTML += '<option value="' + model.id + '">' + model.modele + '</option>';
-                     }
-                   
-                     document.getElementById("modele").innerHTML = optionHTML;
-                     console.table(optionHTML)
-                     
+        marque = marque_select.value;
+        categorie = categorie_select.value;
+       
 
-                 })
+        fetch('/modele/' + marque + '&' + categorie).then(function(response) {
+
+            response.json().then(function(data) {
+              
+                let optionHTML = '';
+                
+                for (let model of data.modeles) {
+                    optionHTML += '<option value="' + model.id +'">' + model.modele + '</option>';
+                }
+
+                document.getElementById("modele").innerHTML = optionHTML;
+                
+                console.table(optionHTML)
+                
+
+            });
+            
+        });
+    }
+
+     
+    categorie_select.onchange = function()  {
+         
+         marque = marque_select.value;
+         categorie = categorie_select.value;
+         
+         fetch('/modele/' + marque + '&' + categorie).then(function(response) {
+
+             response.json().then(function(data) {
+               
+                 var optionHTML = '';
+
+                 for (var model of data.modeles) {
+                     optionHTML += '<option value="' + model.id + '">' + model.modele + '</option>';
+                 }
+               
+                 document.getElementById("modele").innerHTML = optionHTML;
+                 console.table(optionHTML)
                  
-             });
-         }
 
-        
-    </script>
-  </body>
-</html>
+             })
+             
+         });
+     }
+
+  </script>
+
+</body>
+
+  </html>
