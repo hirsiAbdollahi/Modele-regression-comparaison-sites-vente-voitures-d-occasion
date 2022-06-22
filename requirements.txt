@@ -17,7 +17,7 @@ joblib==0.15.1
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
-numpy==1.18.4
+numpy==1.22.0
 oyaml==0.9
 pipenv==2020.5.28
 pylint==2.5.2
